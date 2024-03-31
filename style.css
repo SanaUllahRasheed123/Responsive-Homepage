@@ -16,6 +16,12 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.wrapper {
+    max-width: 1134px;
+    margin: 0 auto;
+    background: red;
+}
+
 /* Buttons */
 
 .btn {
