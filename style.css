@@ -19,7 +19,6 @@ body {
 .wrapper {
     max-width: 1134px;
     margin: 0 auto;
-    background: red;
 }
 
 /* Buttons */
@@ -53,4 +52,12 @@ body {
 
 .btn.enrol-icon {
     padding-left: 60px;
+}
+
+/* Header */
+
+header {
+    background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+    height: 100vh;
+    width: 100%;
 }
