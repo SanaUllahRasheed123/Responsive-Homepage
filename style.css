@@ -246,4 +246,20 @@ nav ul li a {
     background: #fff;
     box-shadow: 0px 9px 36px rgba(0, 0, 0, 0.2);
     border-radius: 24px;
+    margin-bottom: 50px;
+ }
+
+ .testimonials-section .testimonial-card .content {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+    border-radius: 24px;
+    padding: 24px 32px;
+    background: var(--light-blue-color);
+ }
+
+ .testimonials-section .testimonial-card:last-child .content {
+    background: var(--orange-color);
  }
