@@ -202,3 +202,35 @@ nav ul li a {
     left: 8px;
     z-index: 1;
  }
+
+ /* Testimonial section */
+
+ section {
+    margin-top: 100px;
+ }
+
+ h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 120%;
+    margin:0;
+    color: var(--dark-blue-color);
+ }
+
+ h2.light {
+    color: #fff;
+ }
+
+ section p {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    color: var(--dark-blue-color);
+    margin: 12px 0;
+ }
+
+ .testimonials-section {
+    display: flex;
+ }
