@@ -324,11 +324,14 @@ nav ul li a {
     margin-bottom: 30px;
  }
 
+ /* Courses section */
+
  .courses-section {
    background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
    padding: 70px 0;
+   padding-bottom: 120px;
  }
- .courses-section{
+ .courses-section h2{
  text-align: center;
  }
 
@@ -348,7 +351,22 @@ nav ul li a {
    border-radius: 24px;
    padding: 0 32px;
    margin: 40px 0;
+   position: relative;
  }
+
+ .courses-section .course-card::after {
+   content: "";
+   position: absolute;
+   height: 8px;
+   right: 32px;
+   left: 32px;
+   bottom: 0;
+   background: var(--dark-blue-color);
+   border-radius: 24px;
+ 
+ }
+
+
 
  .courses-section .course-card h3 {
    font-family: "Raleway", sans-serif;
@@ -371,6 +389,23 @@ nav ul li a {
    line-height: 150%;
    white-space: nowrap;
    color: var(--dark-blue-color);
+   position: relative;
+   padding-left: 20px;
  }
+
+ .courses-section .course-card .duration::before {
+   content: url('images/clock.svg');
+   position: absolute;
+   top: 2px;
+   left: -6px;
+ }
+
+ .courses-section .wrapper {
+   position: relative;
+ }
+ .courses-section .wrapper .btn {
+   position: absolute;
+ }
+
 
 
