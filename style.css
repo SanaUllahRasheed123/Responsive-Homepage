@@ -405,7 +405,30 @@ nav ul li a {
  }
  .courses-section .wrapper .btn {
    position: absolute;
+   right: 0;
  }
 
+   /* App section */
 
+   .app-section {
+      text-align: center;
+
+   }
+
+   .app-section .app-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 24px;
+   }
+   .app-section .app-btn {
+      padding: 20px 30px;
+      background: black;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 310px;
+   }
 
