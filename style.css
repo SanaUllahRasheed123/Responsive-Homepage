@@ -545,4 +545,19 @@ nav ul li a {
       nav.scrolled {
          padding: 16px 100px;
       }
+
+      header,
+      .hero-section,
+      header .wrapper {
+         max-height: 1000px;
+      }
+
+      .hero-section {
+         flex-direction: column;
+      }
+
+      .hero-section .left {
+         /* background: red; */
+         width: 100%;
+      }
    }
