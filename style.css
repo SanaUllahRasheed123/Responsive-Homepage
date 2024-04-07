@@ -611,6 +611,7 @@ nav ul li a {
 
       .testimonials-section .testimonial-card:last-child:before{
          top: -40px;
+         left: 60px;
          height: calc(100% + 80px);
       }
 
