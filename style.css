@@ -811,6 +811,15 @@ nav ul li a {
          height: 100px;
          width: 100px;
       }
+      .courses-section .wrapper {
+         padding: 0;
+      }
+      .courses-section .course-card img {
+         height: 240px;
+      }
+      .courses-section .wrapper .btn {
+         right: 32px;
+      }
    }
 
 
