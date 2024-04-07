@@ -537,6 +537,7 @@ nav ul li a {
 
       nav {
          width: 100%;
+         top: 100px;
          left: 0;
          right: 0;
          padding: 36px 100px;
@@ -549,7 +550,8 @@ nav ul li a {
       header,
       .hero-section,
       header .wrapper {
-         max-height: 1100px;
+         max-height: 1500px;
+         
       }
 
       .hero-section {
@@ -593,35 +595,31 @@ nav ul li a {
          margin: 40px;
       }
 
+      h2 {
+         font-size: 40px;
+      }
+
+      .testimonials-section {
+         flex-direction: column;
+         align-items: stretch;
+      }
+
+      .testimonials-section .testimonial-card {
+         width: 100%;
+         margin-bottom: 40px;
+      }
+
+      .testimonials-section .testimonial-card:last-child:before{
+         top: -40px;
+         height: calc(100% + 80px);
+      }
+
+      .testimonials-section .testimonial-card:last-child {
+         transform: translateX(0px);
+      }
+
       
    }
 
 
-   /* header,
-      .hero-section,
-      header .wrapper {
-         max-height: 1000px;
-      }
-
-      .hero-section {
-         flex-direction: column;
-      } */
-
-      /* .hero-section .left { */
-         /* background: red; */
-         /* width: 100%; */
-
-      /* } */
-      /* .hero-section .right {
-         position: relative;
-         bottom: 0;
-      }
-      .hero-section .achievement-card {
-         position: absolute;
-      }
-      .achievement-card.students-enrolled,
-      .achievement-card.overall-rating {
-         left: unset;
-         top:unset;
-      } */
-
+   
