@@ -798,6 +798,19 @@ nav ul li a {
       .hero-section .achievement-cards {
          margin: 0;
       }
+      h2 {
+         font-size: 30px;
+      }
+      .testimonials-section .testimonial-card .info h4 {
+         font-size: 18px;
+      }
+      .testimonials-section .testimonial-card .info p.company {
+         font-size: 14px;
+      }
+      .testimonials-section .testimonial-card img {
+         height: 100px;
+         width: 100px;
+      }
    }
 
 
