@@ -676,6 +676,17 @@ nav ul li a {
       }
 
 
+      /* footer */
+
+      footer .links-container {
+         grid-template-columns: 1fr 1fr;
+      }
+
+      footer .links-container .links:last-child {
+         grid-column: 1/3;
+      }
+
+
       
    }
 
