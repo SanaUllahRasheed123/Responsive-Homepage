@@ -618,6 +618,7 @@ nav ul li a {
 
       .testimonials-section .testimonial-card:last-child {
          transform: translateX(0px);
+         margin-bottom: 0px;
       }
 
       .testimonials-section .desktop-btn{
@@ -639,6 +640,13 @@ nav ul li a {
 
       .testimonials-section .right p {
          display: inline;
+      }
+
+      /* Courses Section */
+
+      .courses-section .course-cards {
+         flex-direction: column;
+         /* gap: 40px; */
       }
 
 
