@@ -525,7 +525,8 @@ nav ul li a {
       margin-top: 36px;
    }
 
-   nav.mobile-nav {
+   nav.mobile-nav,
+   .mobile-menu-container {
       display: none;
      
    }
@@ -749,6 +750,32 @@ nav ul li a {
          font-size: 18px;
          color: #fff;
          text-decoration: none;
+      }
+   }
+
+   @media (max-width:700px){
+      .wrapper {
+         padding: 0 32px;
+      }
+      .hero-section .left p {
+         width: 100%;
+      }
+
+      .app-section .app-buttons {
+         flex-direction: column;
+      }
+
+      nav.mobile-nav {
+         padding: 32px;
+      }
+      nav.mobile-nav.scrolled {
+         padding: 8px 32px;
+      }
+      .mobile-menu-container .close-icon {
+         right: 32px;
+      }
+      .hero-section .left h1 {
+         font-size: 36px;
       }
    }
 
