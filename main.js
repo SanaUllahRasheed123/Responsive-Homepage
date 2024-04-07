@@ -1,5 +1,11 @@
 const nav = document.querySelector("nav");
 const mobileNav = document.querySelector("nav.mobile-nav");
+const menueIcon = document.querySelector(".menu-icon");
+const closeIcon = document.querySelector(".mobile-menu-container .close-icon");
+const menuIconContainer = document.querySelector(
+  ".mobile-menu-container .close-icon"
+);
+const mobileMenuContainer = document.querySelector(".mobile-menu-container");
 
 window.addEventListener("scroll", () => {
   if (window.pageYOffset > 60) {
@@ -9,6 +15,13 @@ window.addEventListener("scroll", () => {
     nav.classList.remove("scrolled");
     mobileNav.classList.remove("scrolled");
   }
+});
+
+menueIcon.addEventListener("click", () => {
+  mobileMenuContainer.classList.add("active");
+});
+closeIcon.addEventListener("click", () => {
+  mobileMenuContainer.classList.remove("active");
 });
 
 // const nav = document.querySelector("nav");
