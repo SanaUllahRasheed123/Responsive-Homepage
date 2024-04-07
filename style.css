@@ -637,6 +637,10 @@ nav ul li a {
          order: 2;
       } 
 
+      .testimonials-section .right p {
+         display: inline;
+      }
+
 
       
    }
